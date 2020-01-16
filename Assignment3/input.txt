@@ -1,0 +1,12 @@
+x = x + .00
+x = x + .00,
+x = x + .00;
+x = x %s .00
+a = b+3
+avg_num= total_num  /n
+result=(a = b  )*c
+;
+a+b
+a = 2^2
+a = 2*3
+a = v+c*d,

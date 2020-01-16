@@ -1,0 +1,16 @@
+This lex program is a Recursive Descent parser without backtracking for grammar G.
+    Where G is:
+    S -> id = E
+    E -> TE'
+    E'-> +TE' | -TE' | e
+    T -> FT'
+    T'-> *FT' | / FT' | e
+    F -> K^F  | K
+    K -> (E)  | id
+It checks whether input string is a valid statement or invalid statement if it is there in the grammar.
+
+To run the code:
+1) Go to the project directory
+2) Run "make" to build the executable file without quotes.
+3) Run "./my_lex_parser input.txt" without quotes to run the executable.
+4) To remove the executable that are created run "make remove" without quotes.

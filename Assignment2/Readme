@@ -1,0 +1,16 @@
+							This program takes a NFA and perform subset construction to print the DFA by consuming the file specification.txt
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+specification.txt is attached with the file.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Steps to run the program
+
+	1) Go to the directory.
+	2) Now after that enter command "make" without quotes then hit enter to make executable file whose name is mylex.
+	3) Now enter command "./mylex a b c" without quotes where a represents the number of states a,b represents number of final states ,d represents number of symbols and hit enter and now     		   the program will be running and will take input from the  file named "input.txt"  and specifications from "specification.txt".
+	4) And the output will be printed on the terminal
+	5) And finally to remove the executable file enter the command "make remove" and hit enter.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Done in collabaration with people (Ajat and Vishakh).
